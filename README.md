@@ -112,6 +112,7 @@ secure-aws-vpc-project/
 │   ├── public-route-table.png
 │   ├── private-route-table.png
 │   ├── nat-gateway.png
+│   ├── internet-gateway.png
 │
 ├── architecture-diagram.png
 └── README.md
