@@ -41,7 +41,7 @@ This project was completed as a **beginner-friendly learning exercise**, focusin
 
 ## Architecture
 
-![Architecture Diagram](architecture-diagram/SecureAWSVPCArchitecture.drawio.png)
+[Architecture Diagram](architecture-diagram/Secure AWS VPC Architecture.drawio.png)
 
 The architecture follows a standard **two-tier VPC model**:
 
