@@ -41,7 +41,7 @@ This project was completed as a **beginner-friendly learning exercise**, focusin
 
 ## Architecture
 
-[Architecture Diagram]([architecture-diagram/Secure-AWS-VPC-Architecture.drawio.png](https://github.com/Trapholo01/secure-aws-vpc-project/blob/8b5d79ac0cee71f96eb2efa10abeebe4da70cae6/architecture-diagram/Secure%20AWS%20VPC%20Architecture.drawio.png))
+[Architecture Diagram](https://github.com/Trapholo01/secure-aws-vpc-project/blob/82cc55c2edba0d500d75c2c968bed6311e5fd2ed/architecture-diagram/Secure%20AWS%20VPC%20Architecture.drawio.png)
 
 The architecture follows a standard **two-tier VPC model**:
 
