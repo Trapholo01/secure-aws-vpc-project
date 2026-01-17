@@ -23,8 +23,9 @@ This project was completed as a **beginner-friendly learning exercise**, focusin
 ### VPC Design
 
 * **VPC CIDR:** `10.0.0.0/16`
+* **Availability Zone:** Single AZ (us-east-1a)
 ![VPC CIDR Proof](https://github.com/Trapholo01/secure-aws-vpc-project/blob/2e1c7ada63d3c0c9276e25a50bb3d3f881c79f5e/screenshots/vpc-cidr.png)
-* **Availability Zone:** Single AZ (e.g. us-east-1a)
+
 
 ### Subnets
 
@@ -90,10 +91,11 @@ Associated with: **Private-Subnet**
 * Default allow rules used for this project
 * Adds an additional layer of network-level security
 
+![Connectivity Test Screenshot](https://github.com/Trapholo01/secure-aws-vpc-project/blob/9afe7e035df9c8b333b3a94708a84f0aef9c22f4/screenshots/secure%20nacl.png)
+
 ---
 
 ## Connectivity Testing
-![Connectivity Test Screenshot](https://github.com/Trapholo01/secure-aws-vpc-project/blob/2e1c7ada63d3c0c9276e25a50bb3d3f881c79f5e/screenshots/connectivity-test.png)
 
 To verify secure connectivity:
 
@@ -105,6 +107,8 @@ This proves that:
 
 * Outbound traffic flows through the NAT Gateway
 * The private subnet remains protected from direct external access
+
+![Connectivity Test Screenshot](https://github.com/Trapholo01/secure-aws-vpc-project/blob/2e1c7ada63d3c0c9276e25a50bb3d3f881c79f5e/screenshots/connectivity-test.png)
 
 ---
 
