@@ -111,6 +111,9 @@ secure-aws-vpc-project/
 │   ├── private-route-table.png
 │   ├── nat-gateway.png
 │   ├── internet-gateway.png
+│   ├── public-subnet.png
+│   ├── private-subnet.png
+│   ├── connectivity-test.png
 │
 ├── architecture-diagram/
 │   └── architecture-diagram.png
