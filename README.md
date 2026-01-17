@@ -24,6 +24,7 @@ This project was completed as a **beginner-friendly learning exercise**, focusin
 
 * **VPC CIDR:** `10.0.0.0/16`
 * **Availability Zone:** Single AZ (us-east-1a)
+  
 ![VPC CIDR Proof](https://github.com/Trapholo01/secure-aws-vpc-project/blob/2e1c7ada63d3c0c9276e25a50bb3d3f881c79f5e/screenshots/vpc-cidr.png)
 
 
@@ -37,8 +38,11 @@ This project was completed as a **beginner-friendly learning exercise**, focusin
 ### Gateways
 
 * **Internet Gateway:** Enables public internet access
+  
 ![Internet Gateway Status](https://github.com/Trapholo01/secure-aws-vpc-project/blob/2e1c7ada63d3c0c9276e25a50bb3d3f881c79f5e/screenshots/internet-gateway.png)
+
 * **NAT Gateway:** Enables outbound internet access for private subnet resources
+
 ![NAT Gateway Status](https://github.com/Trapholo01/secure-aws-vpc-project/blob/2e1c7ada63d3c0c9276e25a50bb3d3f881c79f5e/screenshots/nat-gateway.png)
   
 ---
@@ -52,11 +56,13 @@ The architecture follows a standard **three-tier VPC model**:
 * The **Public Subnet** contains:
   * Internet Gateway (attached to the VPC)
   * NAT Gateway with an Elastic IP
+    
   ![Public Subnet Screenshot](https://github.com/Trapholo01/secure-aws-vpc-project/blob/2e1c7ada63d3c0c9276e25a50bb3d3f881c79f5e/screenshots/public-subnet.png)
 
 * The **Private Subnet**:
   * Has no direct internet route
   * Routes outbound traffic through the NAT Gateway
+    
   ![Private Subnet Screenshot](https://github.com/Trapholo01/secure-aws-vpc-project/blob/2e1c7ada63d3c0c9276e25a50bb3d3f881c79f5e/screenshots/private-subnet.png)
 
 ---
@@ -70,6 +76,7 @@ The architecture follows a standard **three-tier VPC model**:
 | 0.0.0.0/0   | Internet Gateway |
 
 Associated with: **Public-Subnet**
+
 ![Public Route Table Screenshot](https://github.com/Trapholo01/secure-aws-vpc-project/blob/2e1c7ada63d3c0c9276e25a50bb3d3f881c79f5e/screenshots/public-route-table.png)
 
 ### Private Route Table (`Private-RT`)
@@ -79,6 +86,7 @@ Associated with: **Public-Subnet**
 | 0.0.0.0/0   | NAT Gateway |
 
 Associated with: **Private-Subnet**
+
 ![Private Route Table Screenshot](https://github.com/Trapholo01/secure-aws-vpc-project/blob/2e1c7ada63d3c0c9276e25a50bb3d3f881c79f5e/screenshots/private-route-table.png)
 
 ---
@@ -126,6 +134,7 @@ secure-aws-vpc-project/
 │   ├── public-subnet.png
 │   ├── private-subnet.png
 │   ├── connectivity-test.png
+│   ├── secure nacl.png
 │
 ├── architecture-diagram/
 │   └── architecture-diagram.png
